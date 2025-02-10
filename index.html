@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Love Book - Create Interactive Flipbooks</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Flipbook.js -->
+
+  <script src="https://cdn.jsdelivr.net/npm/flipbook.js/dist/flipbook.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flipbook.js/dist/flipbook.min.css">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="header">
+
+    <div class="container">
+
+      <div class="logo">
+
+        <h1>The Love Book</h1>
+
+      </div>
+
+      <nav class="nav">
+
+        <ul class="nav-links">
+
+          <li><a href="#" class="cta-button" id="get-started">Get Started</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <!-- Hero Section -->
+
+  <section class="hero">
+
+    <div class="container">
+
+      <div class="hero-content">
+
+        <h2>Create Beautiful Flipbooks for Your Loved Ones</h2>
+
+        <p>Transform your memories into interactive flipbooks with ease.</p>
+
+        <a href="#upload" class="cta-button">Start Creating</a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Upload Section -->
+
+  <section class="upload" id="upload">
+
+    <div class="container">
+
+      <h2>Create Your Flipbook</h2>
+
+      <form id="upload-form">
+
+        <input type="file" id="file-input" accept=".pdf" required>
+
+        <button type="submit" class="cta-button">Upload PDF</button>
+
+      </form>
+
+      <div id="flipbook-container" style="display: none; margin-top: 20px;"></div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <p>&copy; 2023 The Love Book. All rights reserved.</p>
+
+    </div>
+
+  </footer>
+
+  <!-- JavaScript -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
